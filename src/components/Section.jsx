@@ -10,6 +10,7 @@ import { IoIosLink } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
 import { IoLogoCss3 } from "react-icons/io5";
 import { FaCodeFork } from "react-icons/fa6";
+import { IoCodeSlash } from "react-icons/io5";
 import { GoGitPullRequest } from "react-icons/go";
 import { PiGitBranch } from "react-icons/pi";
 
@@ -24,7 +25,7 @@ function Section() {
                     A Front-End developer with a passion for learning,
                     I am currently improving myself <br /> by working  with  React <FaReact /> and Redux <SiRedux />  and shaping life by learning new things every day.</p>
 
-                <p className='learning'>If there is anything I can help with, contact me.
+                <p className='learning'>IF There is anything I can help with, Contact me.
                 </p>
             </div>
 
@@ -62,7 +63,7 @@ function Section() {
                         </div>
 
                         <div className='intelbox'>
-                            <div className="star"> <span style={{ paddingTop: "2px" }}>2</span> <FaStar /></div>
+                            <div className="star"> <span style={{ paddingTop: "2px" }}>2</span> <IoCodeSlash /></div>
                             <div className="branch"><GoGitPullRequest />Html</div>
                         </div>
 
@@ -76,17 +77,17 @@ function Section() {
 
                         <div className="colorbox">
                             <div className='orange'></div>
-                            <div className='black'></div>
+
                             <div className='blue'></div>
                         </div>
                     </div>
                     <div className="content4">
                         <div className="repodocument">
-                            <p className='repodocumentcontent'>I made a You-Tube clone in this project</p>
+                            <p className='repodocumentcontent'>I made  a UI / 3D PlayX  design  in this project</p>
                         </div>
 
                         <div className='intelbox'>
-                            <div className="star"> <span style={{ paddingTop: "2px" }}>2</span> <FaStar /></div>
+                            <div className="star"> <span style={{ paddingTop: "2px" }}>2</span> <IoCodeSlash /></div>
                             <div className="branch"><GoGitPullRequest />CSS</div>
                         </div>
 
@@ -99,26 +100,28 @@ function Section() {
 
                         <div className="colorbox">
                             <div className='orange'></div>
-                            <div className='black'></div>
+                            <div className='white'></div>
                             <div className='blue'></div>
                         </div>
                     </div>
                     <div className="content4">
                         <div className="repodocument">
-                            <p className='repodocumentcontent'>I made a You-Tube clone in this project</p>
+                            <p className='repodocumentcontent'>I made TO-DO application used LocalStroage</p>
                         </div>
 
                         <div className='intelbox'>
-                            <div className="star"> <span style={{ paddingTop: "2px" }}>2</span> <FaStar /></div>
+                            <div className="star"> <span style={{ paddingTop: "1px" }}>2</span> <IoCodeSlash /></div>
                             <div className="branch"><GoGitPullRequest />Javascript</div>
                         </div>
 
                     </div>
 
                 </a>
-                <a href="https://github.com/dev-berkayy/dev-berkayy" className='repo'>
+
+                <a href="
+https://fascinating-torrone-17b500.netlify.app/" className='repo'>
                     <div className="content3">
-                        <a href=""><IoIosLink />berkayy-config</a>
+                        <a href=""><IoIosLink />Spinner-Color-Plus</a>
 
                         <div className="colorbox">
                             <div className='orange'></div>
@@ -128,12 +131,12 @@ function Section() {
                     </div>
                     <div className="content4">
                         <div className="repodocument">
-                            <p className='repodocumentcontent'>I made a You-Tube clone in this project</p>
+                            <p className='repodocumentcontent'> I made a simple counter</p>
                         </div>
 
                         <div className='intelbox'>
-                            <div className="star"> <span style={{ paddingTop: "2px" }}>2</span> <FaStar /></div>
-                            <div className="branch"><GoGitPullRequest />No language</div>
+                            <div className="star"> <span style={{ paddingTop: "2px" }}>1</span> <IoCodeSlash /></div>
+                            <div className="branch"><GoGitPullRequest />Html</div>
                         </div>
 
                     </div>
@@ -144,42 +147,39 @@ function Section() {
                         <a href=""><IoIosLink />30 Days-Javascript</a>
 
                         <div className="colorbox">
-                            <div className='orange'></div>
                             <div className='black'></div>
-                            <div className='blue'></div>
                         </div>
                     </div>
                     <div className="content4">
                         <div className="repodocument">
-                            <p className='repodocumentcontent'>I made a You-Tube clone in this project</p>
+                            <p className='repodocumentcontent'>I made 30 javascirpt projects</p>
                         </div>
 
                         <div className='intelbox'>
-                            <div className="star"> <span style={{ paddingTop: "2px" }}>2</span> <FaStar /></div>
+                            <div className="star"> <span style={{ paddingTop: "2px" }}>2</span> <IoCodeSlash /></div>
                             <div className="branch"><GoGitPullRequest />Javascript</div>
                         </div>
 
                     </div>
 
                 </a>
-                <a href="#" className='repo'>
+
+                <a href="https://github.com/dev-berkayy/dev-berkayy" className='repo'>
                     <div className="content3">
-                        <a href=""><IoIosLink />Coming soon</a>
+                        <a href=""><IoIosLink />berkayy-config</a>
 
                         <div className="colorbox">
-                            <div className='orange'></div>
-                            <div className='black'></div>
-                            <div className='blue'></div>
+                            <div className='white'></div>
                         </div>
                     </div>
                     <div className="content4">
                         <div className="repodocument">
-                            <p className='repodocumentcontent'>I made a You-Tube clone in this project</p>
+                            <p className='repodocumentcontent'></p>
                         </div>
 
                         <div className='intelbox'>
-                            <div className="star"> <span style={{ paddingTop: "2px" }}>2</span> <FaStar /></div>
-                            <div className="branch"><GoGitPullRequest />Html</div>
+                            <div className="star"></div>
+                            <div className="branch"><GoGitPullRequest />No language</div>
                         </div>
 
                     </div>
