@@ -874,6 +874,10 @@
     .document {
         margin-top: 410px;
     }
+
+    .title {
+        margin-top: -60px;
+    }
 }
 
 @media screen and (max-width:365px) {
@@ -901,8 +905,6 @@
         margin-top: -150px;
     }
 }
-
-
 
 @media screen and (max-width:355px) {
     .maindocument {

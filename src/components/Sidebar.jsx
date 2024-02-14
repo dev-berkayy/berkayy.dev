@@ -23,8 +23,8 @@ function Sidebar() {
                     <p className='mail'> <SlLocationPin className='mailicon' /> : Germany</p>
                 </div>
                 <div className="social">
-                    <div className='socialbox'><a href=""><ImGithub className='github' /></a></div>
-                    <div className='socialbox'><a href="#"><GrLinkedin className='linked' /></a></div>
+                    <div className='socialbox'><a href="https://github.com/dev-berkayy"><ImGithub className='github' /></a></div>
+                    <div className='socialbox'><a href="https://www.linkedin.com/in/berkay-y%C4%B1ld%C4%B1r%C4%B1m-75b9a2239/"><GrLinkedin className='linked' /></a></div>
                 </div>
             </div>
 
