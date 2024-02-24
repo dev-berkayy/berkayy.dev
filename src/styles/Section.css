@@ -1,32 +1,30 @@
 .kapsayici {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-left: 419px;
-    gap: 50px;
+    width: 100%;
     height: 100vh;
+    position: relative;
 }
 
 
 .maindocument {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 50px;
-    margin-top: -460px;
-    margin-left: 100px;
+    gap: 10px;
     word-spacing: 5px;
     letter-spacing: 1px;
-
+    text-align: center;
+    width: 100%;
 }
 
 .title {
     font-weight: bolder;
-    font-weight: bolder;
     font-size: 40px;
-    margin-top: -250px;
-    position: absolute;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -36,134 +34,136 @@
     font-family: sans-serif;
     font-size: 22px;
     width: 90%;
-    margin-top: 100px;
 }
 
-.strong {
-    color: rgb(195, 195, 15);
-    display: flex;
-    align-items: center;
+span {
+    color: rgb(180, 180, 14);
     gap: 10px;
     font-size: 24px;
+    font-size: 25px;
 }
 
 .learning {
     color: rgb(150, 150, 150);
-    margin-top: -20px;
+    margin-top: 10px;
     font-size: 25px;
 }
 
 .skills {
-    margin-bottom: -455px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+    gap: 25px;
+}
+
+.skillsboxsection {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 23px;
-    width: auto;
-    width: 87%;
-    height: 400px;
-    margin-left: 40px;
-    justify-content: flex-start;
-
+    width: 1000px;
 }
 
+.skillsbox {
+    margin: auto;
+    width: 9%;
+    min-width: 90px;
+    border-radius: 50%;
+    height: 90px;
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.skillsbox:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
 
 .skiltitle {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
-    margin-top: 60px;
     font-size: 45px;
     color: white;
-    position: absolute;
-    left: 520px;
 }
-
-
-.skillsbox {
-    width: 11%;
-    height: 120px;
-    background-color: #202020;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: -40px;
-
-}
-
 
 .react {
-    font-size: 60px;
+    font-size: 50px;
     color: #00aeff;
+    transition: 0.5s;
 }
 
 .js {
 
-    font-size: 60px;
+    font-size: 50px;
     color: #ffee00;
 }
 
 .figma {
 
-    font-size: 60px;
+    font-size: 50px;
     color: #f8206a;
 }
 
 .html {
-
-    font-size: 60px;
+    font-size: 50px;
     color: orangered;
 }
 
 .tailwind {
-
-    font-size: 60px;
+    font-size: 50px;
     color: #0085ad;
 }
 
 .eng {
-
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(255, 255, 255);
 }
 
 .css {
-    font-size: 60px;
+    font-size: 50px;
     color: rgb(0, 110, 255);
 }
 
-.repotitle {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    margin-top: 790px;
-    font-size: 45px;
-    color: white;
-    position: absolute;
-    left: 520px;
-    display: flex;
-    align-items: center;
-    gap: 6px;
+.sasscss {
+    color: #ab3e73;
+    font-size: 50px;
+    margin-top: 2px;
+}
+
+.bootstrap {
+    color: #6200ff;
+    font-size: 50px;
 }
 
 .repos {
-    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    gap: 20px;
+}
+
+.reposcontainer {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 35px;
-    position: absolute;
-    margin-top: 1520px;
-    padding-bottom: 60px;
-    margin-left: 230px;
-
+    gap: 30px;
+    padding-bottom: 30px;
 }
 
 .repo {
     width: 370px;
     height: 200px;
-    background-color: #202020;
+    background-color: #1d1d1d;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1044%26quot%3b)' fill='none'%3e%3cpath d='M1336.478391822115 461.98705841117015L1177.755442470523 308.710087918066 1024.4784719774188 467.43303726965814 1183.2014213290108 620.7100077627623z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M181.4970046372467 939.2110403469135L495.0213500570311 966.6408663105304 208.9268306008637 625.6866949271291z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M166.23468275270955 244.4163530494816L378.93387991986936 285.97129367388976 320.39129801472666 105.79575312069812z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-21.78331823930094 545.0239282611403L217.37714616454303 745.7033857345928 178.8961392341515 305.8634638572963z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1775.6383805855064 1135.7607911492155L1915.5731373212793 1168.067275312399 1894.0654851981683 942.0118981271481z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M563.673507549312-151.1557520724767L254.52187142962055-56.638611687543616 658.1906479342451 157.9958840472148z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M2030.6791539538262 369.4657501622495L1850.8581286037966 139.30533347309944 1800.5187372646762 549.2867755122793z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1350.1004784567929 271.46591204589345L1350.1004784567929 457.01770546893374 1535.6522718798333 457.0177054689337 1535.6522718798333 271.4659120458934z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M103.21376865962404 216.8491742796481L213.73232902980791 433.7540619154761 430.63721666563595 323.2355015452922 320.118656295452 106.33061390946423z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1062.0497363597906 620.8371692937994L905.897500199127 498.597837964696 878.7792434969806 669.8157722932187z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-88.8205880905239 617.1500696072343L170.1255516768399 677.1924884348571 106.07705767218022 453.82884533674866z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M511.6478917996213 202.36046112862746L364.61887175969144 65.25368184135635 232.47321284874977 354.3506015448867z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1080.9104007221254 196.77582333717257L1124.6550112282678 403.54680590891917 1264.0884274125608 282.3391864115028z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M65.10055456433216 208.97829738430082L266.9419602168999 441.6176815281451 359.02617588940785 188.61837827973966z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1009.3661017042945 864.7421614570055L955.1556315889051 1031.5848328736704 1121.99830300557 1085.7953029890598 1176.2087731209594 918.9526315723949z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1112.61628357693 958.8206043531151L1088.084662907847 678.4228970339957 807.6869555887276 702.9545177030789 832.2185762578108 983.3522250221981z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1810.7493507146526 138.18673741610104L1848.501427224948-25.335471192372694 1647.227142106179 100.43466090580573z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1152.0090917224115 690.7878023990417L1427.8373512749686 786.057221796084 1383.5406653437929 534.8382322052912z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1044'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -174,7 +174,20 @@
 }
 
 .repo:hover {
-    box-shadow: 0 2px 30px rgb(100, 98, 98);
+    position: relative;
+    bottom: 5px;
+    transition: 0.2s;
+    box-shadow: 0 0 20px 1px rgb(69, 55, 87);
+}
+
+.repotitle {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 45px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
 .content3 {
@@ -184,9 +197,10 @@
 }
 
 .content3 a {
-    font-family: 'Courier New', Courier, ;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
-    color: white;
+    color: rgb(200, 154, 255);
+    font-weight: bolder;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -197,31 +211,35 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 3px;
+    gap: 5px;
 }
 
 .blue {
     width: 10px;
     height: 10px;
-    background-color: rgb(0, 94, 255);
+    background-color: #483d8b;
+    border-radius: 50%;
 }
 
 .black {
     width: 10px;
     height: 10px;
     background-color: yellow;
+    border-radius: 50%;
 }
 
 .orange {
     width: 10px;
     height: 10px;
     background-color: rgb(239, 78, 20);
+    border-radius: 50%;
 }
 
 .white {
     width: 10px;
     height: 10px;
     background-color: rgb(255, 255, 255);
+    border-radius: 50%;
 }
 
 .content4 {
@@ -261,659 +279,80 @@
     color: rgb(213, 213, 213);
 }
 
-
-
-
-
-@media screen and (max-width:1715px) {
-    .skills {
-        position: relative;
-        margin-left: 20px;
-    }
-
-    .skillsbox {
-        width: 11%;
-
-    }
-
-    .repos {
-        width: 65%;
-        margin-left: 50px;
-    }
-
-    .repo {
-        width: 30.5%;
-    }
-
+.span2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(178, 178, 178);
+    font-size: 18px;
 }
 
-@media screen and (max-width:1480px) {
-    .skills {
-        padding-left: 10px;
-        display: flex;
-        gap: -20px;
-        margin-left: 40px;
-    }
 
-    .skillsbox {
-        width: 16%;
-        height: 95px;
-        margin-top: 100px;
-    }
+@media screen and (max-width:1630px) {
 
-    .react {
-        font-size: 50px;
+    .repo {
+        width: 45%;
     }
+}
 
-    .js {
-        font-size: 50px;
+
+@media screen and (max-width:1440px) {
+    .skillsboxsection {
+        width: 100%;
     }
+}
 
-    .figma {
-        font-size: 50px;
+@media screen and (max-width:1340px) {
+    .skillsboxsection {
+        width: 85%;
+        gap: 45px;
     }
+}
 
-    .html {
-        font-size: 50px;
+@media screen and (max-width:1265px) {
+
+    .repo {
+        width: 92%;
     }
+}
 
-    .tailwind {
-        font-size: 50px;
-    }
 
-    .eng {
-        font-size: 50px;
-    }
-
-    .css {
-        font-size: 50px;
-    }
-
-    .repotitle {
-        margin-top: 1070px;
-    }
-
-    .repos {
-        width: 62%;
-        margin-top: 2000px;
-    }
-
+@media screen and (max-width:890px) {
     .repo {
         width: 47%;
     }
 }
 
-
-@media screen and (max-width:1250px) {
-
-    .skills {
-        margin-top: 50px;
-        margin-left: 70px;
-    }
-
-    .skillsbox {
-        width: 20%;
-    }
-
-    .skiltitle {
-        margin-top: 50px;
-        margin-left: -118px;
-    }
-
-    .repotitle {
-        margin-top: 1100px;
-        margin-left: -118px;
-    }
-
-    .sidebar {
-        width: 350px;
-    }
-
-    .kapsayici {
-        margin-left: 300px;
-    }
-
-
-}
-
-
-@media screen and (max-width:1100px) {
-
-    .repos {
-        margin-top: 2650px;
-        margin-left: 25px;
-    }
-
+@media screen and (max-width:810px) {
     .repo {
-        width: 88%;
+        width: 90%;
+        height: 120px;
     }
 
-    .repo {
-        height: 170px;
+    .repodocumentcontent {
+        padding-bottom: 30px;
+    }
+
+    .intelbox {
+        margin-top: -50px;
     }
 
     .content4 {
-        bottom: 10px;
-        position: relative;
-        margin-bottom: 220px;
-    }
-
-    .intelbox {
-        margin-top: 0px;
-    }
-
-    .repotitle {
-        margin-top: 1200px;
-    }
-
-
-}
-
-
-@media screen and (max-width:1070px) {
-    .repotitle {
-        margin-top: 1180px;
-    }
-
-    .repos {
-        margin-top: 2650px;
-    }
-
-
-}
-
-@media screen and (max-width:1000px) {
-
-    .skiltitle {
-        margin-top: 95px;
-    }
-}
-
-@media screen and (max-width:890px) {
-
-    .skills {
-        position: relative;
-        width: 151%;
-        display: flex;
-        flex-direction: inherit;
-        justify-content: center;
-        margin-left: -300px;
-        gap: -20px;
-        margin-top: 20px
-    }
-
-    .skillsbox {
-        width: 18%;
-    }
-
-
-    .repos {
-        width: 100%;
-        margin-left: -300px;
-        margin-top: 2530px;
-    }
-
-    .repo {
-        height: 145px;
-    }
-
-    .skiltitle {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -520px;
-        margin-top: 200px;
-    }
-
-    .repotitle {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -520px;
-        margin-top: 1230px;
-    }
-
-    .maindocument {
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 150%;
-        margin-left: -300px;
-        margin-top: -450px;
-        line-height: 40px;
-
-    }
-
-    .document {
-        margin-top: 160px;
-    }
-
-    .intelbox {
-        margin-top: -30px;
-    }
-}
-
-
-@media screen and (max-width:715px) {
-    .maindocument {
-        width: 170%;
-        margin-top: 280px;
-    }
-
-
-    .skiltitle {
-        margin-top: 950px;
-    }
-
-    .repotitle {
-        margin-top: 2045px;
-    }
-
-    .react {
-        font-size: 35px;
-    }
-
-    .js {
-        font-size: 35px;
-    }
-
-    .figma {
-        font-size: 35px;
-    }
-
-    .html {
-        font-size: 35px;
-    }
-
-    .tailwind {
-        font-size: 35px;
-    }
-
-    .eng {
-        font-size: 35px;
-
-    }
-
-    .css {
-        font-size: 35px;
-    }
-
-    .repos {
-        margin-top: 3430px;
-    }
-
-    .skillsbox {
-        height: 80px;
-    }
-
-
-}
-
-@media screen and (max-width:695px) {
-    .repotitle {
-        margin-top: 1900px;
-    }
-
-    .repos {
-        margin-top: 3200px;
-    }
-}
-
-@media screen and (max-width:665px) {
-    .skiltitle {
-        margin-top: 970px;
-    }
-}
-
-@media screen and (max-width:646px) {
-    .skiltitle {
-        margin-top: 990px;
-    }
-}
-
-
-
-@media screen and (max-width:620px) {
-    .maindocument {
-        width: 180%;
-        margin-top: 290px;
-    }
-
-
-    .skills {
-        width: 140%;
-        margin-left: -320px;
-    }
-
-    .skillsbox {
-
-        width: 22%;
-    }
-
-    .repotitle {
-        margin-top: 1920px;
-    }
-}
-
-@media screen and (max-width:615px) {
-    .maindocument {
-        margin-top: 280px;
-    }
-
-    .skiltitle {
-        margin-top: 1000px;
-    }
-
-    .skillsbox {
-        width: 22%;
-    }
-
-    .repotitle {
-        margin-top: 2000px;
-    }
-
-    .title {
-        margin-top: -290px;
-    }
-
-    .repos {
-        margin-top: 3300px;
-    }
-}
-
-
-
-@media screen and (max-width:575px) {
-    .maindocument {
-        width: 201%;
-    }
-
-
-    .document {
-        margin-top: 300px;
-    }
-
-    .skiltitle {
-        margin-top: 1260px;
-    }
-
-    .skills {
-        margin-left: -340px;
-    }
-
-    .skillsbox {
-        width: 25%;
-        height: 60px;
-    }
-}
-
-
-@media screen and (max-width:535px) {
-    .skiltitle {
-        margin-top: 1320px;
-    }
-
-    .repotitle {
-        margin-top: 2120px;
-    }
-
-    .repos {
-        margin-top: 3420px;
-    }
-}
-
-@media screen and (max-width:470px) {
-    .title {
-        margin-top: -410px;
+        margin-top: -20px;
     }
 
 }
 
-@media screen and (max-width:430px) {
-    .title {
-        width: 100%;
-        text-align: center;
-        margin-top: -220px;
-    }
-
-    .skiltitle {
-        margin-top: 1050px;
-
-    }
-
-    .skills {
-        display: flex;
-        flex-direction: row;
-        width: 315%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: -310px;
-
-    }
-
-    .skillsbox {
-        margin-right: 10px;
-        margin-left: 10px;
-        min-width: 55px;
-        width: 20%;
-        max-width: 63px;
-
-    }
-
-    .maindocument {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: 20px;
-        width: 300%;
-        margin-left: -300px;
-        margin-top: 200px;
-
-
-    }
-
-    .document {
-        font-size: 20px;
-        word-spacing: -2px;
-
-    }
-
-    .repos {
-        margin-top: 3400px;
-    }
-
-}
-
-@media screen and (max-width:425px) {
-    .document {
-        font-size: 20px;
-        word-spacing: -2px;
-        margin-top: 370px;
-    }
-
-    .skiltitle {
-        margin-top: 1150px;
-    }
-
-    .repotitle {
-        margin-top: 2120px;
+@media screen and (max-width:590px) {
+    .learning {
+        font-size: 23px;
     }
 }
+
 
 @media screen and (max-width:420px) {
-    .skiltitle {
-        margin-top: 1120px;
-    }
 
-    .repotitle {
-        margin-top: 2100px;
-    }
-
-    .intelbox {
-        margin-top: -32px;
-    }
-
-    .repodocument {
-        margin-top: -13px;
-    }
-
-    .document {
-        margin-top: 370px;
-    }
-}
-
-
-@media screen and (max-width:410px) {
-    .document {
-        margin-top: 370px;
-    }
-
-    .maindocument {
-        width: 360%;
-
-    }
-
-    .title {
-        margin-top: -200px;
-    }
-
-    .skiltitle {
-        margin-top: 1050px;
-    }
-
-    .repotitle {
-        margin-top: 2080px;
-    }
-
-    .repos {
-        margin-top: 3400px;
-    }
-}
-
-@media screen and (max-width:400px) {
-    .title {
-        margin-top: -120px;
-    }
-
-    .document {
-        margin-top: 400px;
-    }
-
-    .skiltitle {
-        margin-top: 1190px;
-    }
-
-    .repotitle {
-        margin-top: 2200px;
-    }
-
-    .repos {
-        margin-top: 3460px;
-    }
-}
-
-@media screen and (max-width:390px) {
-
-    .skills {
-        width: 420%;
-    }
-
-    .skiltitle {
-        margin-top: 1260px;
-    }
-
-    .repotitle {
-        margin-top: 2260px;
-    }
-
-    .repos {
-        margin-top: 3500px;
-    }
-}
-
-@media screen and (max-width:385px) {
-
-    .document {
-        margin-top: 390px;
-    }
-
-    .maindocument {
-        width: 430%;
-    }
-
-    .skiltitle {
-        margin-top: 1150px;
-    }
-
-    .repotitle {
-
-        margin-top: 2180px;
-
-    }
-}
-
-@media screen and (max-width:380px) {
-    .document {
-        margin-top: 370px;
-    }
-
-    .skiltitle {
-        margin-top: 1175px;
-    }
-}
-
-
-@media screen and (max-width:375px) {
-    .maindocument {
-        width: 490%;
-    }
-
-    .skills {
-        width: 470%;
-    }
-
-    .document {
-        margin-top: 410px;
-    }
-
-    .title {
-        margin-top: -100px;
-    }
-}
-
-@media screen and (max-width:365px) {
-    .maindocument {
-        width: 540%;
-    }
-
-    .skills {
-        width: 480%;
-    }
-
-    .document {
-        margin-top: 470px;
-    }
-
-    .skiltitle {
-        margin-top: 1310px;
-    }
-
-    .repotitle {
-        margin-top: 2270px;
-    }
-
-    .title {
-        margin-top: -150px;
-    }
-}
-
-@media screen and (max-width:355px) {
-    .maindocument {
-        width: 660%;
+    .content3 a {
+        font-size: 18px;
     }
 }

@@ -1,11 +1,26 @@
 .container {
     display: flex;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
 
 }
 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #d1d802;
+}
+
+
+
 @media screen and (max-width:890px) {
-
-
     .container {
         display: flex;
         flex-direction: column;
@@ -13,5 +28,16 @@
         align-items: center;
     }
 
+    .kapsayici {
+        margin-right: 419px;
+        position: relative;
+        margin-top: -20px;
+    }
 
+}
+
+@media screen and (max-width:590px) {
+    .kapsayici {
+        margin-top: -90px;
+    }
 }
