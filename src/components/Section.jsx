@@ -95,7 +95,7 @@ function Section() {
                         </div>
                         <div className="content4">
                             <div className="repodocument">
-                                <p className='repodocumentcontent'>I made  a UI / 3D PlayX  design  in this project</p>
+                                <p className='repodocumentcontent'>I made A UI/3D PlayX design </p>
                             </div>
 
                             <div className='intelbox'>
@@ -119,7 +119,7 @@ function Section() {
                         </div>
                         <div className="content4">
                             <div className="repodocument">
-                                <p className='repodocumentcontent'>I made TO-DO application used LocalStroage</p>
+                                <p className='repodocumentcontent'>TO-DO application with LocalStroage</p>
                             </div>
 
                             <div className='intelbox'>

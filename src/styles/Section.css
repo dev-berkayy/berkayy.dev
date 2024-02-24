@@ -347,6 +347,53 @@ span {
     .learning {
         font-size: 23px;
     }
+
+    .repodocumentcontent {
+        font-size: 14px;
+    }
+
+    .skillsbox {
+        min-width: auto;
+        width: 70px;
+        height: 70px;
+    }
+
+    .react {
+        font-size: 40px;
+    }
+
+    .js {
+        font-size: 40px;
+    }
+
+    .figma {
+        font-size: 40px;
+    }
+
+    .html {
+        font-size: 40px;
+    }
+
+    .tailwind {
+        font-size: 40px;
+    }
+
+    .eng {
+        font-size: 40px;
+    }
+
+    .css {
+        font-size: 40px;
+    }
+
+    .sasscss {
+        font-size: 40px;
+    }
+
+    .bootstrap {
+        font-size: 40px;
+    }
+
 }
 
 
