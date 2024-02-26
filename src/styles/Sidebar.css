@@ -215,5 +215,10 @@ h1 {
     margin-right: 40px;
   }
 
+}
 
+@media screen and (max-width:590px) {
+  .sidebar {
+    margin-left: -11px;
+  }
 }
