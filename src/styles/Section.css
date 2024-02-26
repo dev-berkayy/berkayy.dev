@@ -77,12 +77,12 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .skillsbox:hover {
-    transform: rotate(360deg);
-    transition: 0.4s;
+    transform: rotate(45deg);
+    transition: 0.3s;
 }
 
 .skiltitle {
