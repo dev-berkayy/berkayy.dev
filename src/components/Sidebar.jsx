@@ -22,6 +22,7 @@ function Sidebar() {
                     <p className='mail'> <CiMail className='mailicon' />  7ubisoft7@gmail.com</p>
                     <p className='mail'> <SlLocationPin className='mailicon' />  Germany</p>
                     <p className='mail'> <DiCodeigniter className='mailicon' />  Full Time</p>
+
                 </div>
                 <div className="social">
                     <a href="https://github.com/dev-berkayy" className='socialbox'><a href="https://github.com/dev-berkayy"><ImGithub className='github' /></a></a>

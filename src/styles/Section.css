@@ -15,11 +15,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
     gap: 10px;
     word-spacing: 5px;
     letter-spacing: 1px;
     text-align: center;
-    width: 100%;
+    width: 95%;
 }
 
 .title {
@@ -36,18 +37,26 @@
     width: 90%;
 }
 
-span {
-    color: rgb(180, 180, 14);
+.spandocument {
+    color: #ffffff;
+    background-color: rgb(54, 51, 51);
+    text-align: center;
+    border-radius: 5px;
     gap: 10px;
-    font-size: 24px;
-    font-size: 25px;
+    font-size: 23px;
+    align-items: center;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    position: relative;
+    top: 2px;
+    right: 5px;
 }
 
-.learning {
-    color: rgb(150, 150, 150);
-    margin-top: 10px;
-    font-size: 25px;
+.documneticon {
+    margin-bottom: -3px;
 }
+
 
 .skills {
     display: flex;
@@ -56,7 +65,7 @@ span {
     align-items: center;
     width: 100%;
     margin-top: 70px;
-    gap: 25px;
+    gap: 20px;
 }
 
 .skillsboxsection {
@@ -73,16 +82,20 @@ span {
     min-width: 90px;
     border-radius: 50%;
     height: 90px;
-    background-color: #202020;
+    background-color: #0d0d0d;
+    border: 1px solid rgb(56, 54, 54);
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.4s;
+    transition: 0.3s;
+
 }
 
 .skillsbox:hover {
-    transform: rotate(360deg);
-    transition: 0.4s;
+    transform: rotate(25deg);
+    transition: 0.3s;
+    position: relative;
+
 }
 
 .skiltitle {
@@ -156,15 +169,15 @@ span {
     flex-wrap: wrap;
     align-items: center;
     gap: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .repo {
     width: 370px;
     height: 200px;
-    background-color: #1d1d1d;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1044%26quot%3b)' fill='none'%3e%3cpath d='M1336.478391822115 461.98705841117015L1177.755442470523 308.710087918066 1024.4784719774188 467.43303726965814 1183.2014213290108 620.7100077627623z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M181.4970046372467 939.2110403469135L495.0213500570311 966.6408663105304 208.9268306008637 625.6866949271291z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M166.23468275270955 244.4163530494816L378.93387991986936 285.97129367388976 320.39129801472666 105.79575312069812z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-21.78331823930094 545.0239282611403L217.37714616454303 745.7033857345928 178.8961392341515 305.8634638572963z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1775.6383805855064 1135.7607911492155L1915.5731373212793 1168.067275312399 1894.0654851981683 942.0118981271481z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M563.673507549312-151.1557520724767L254.52187142962055-56.638611687543616 658.1906479342451 157.9958840472148z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M2030.6791539538262 369.4657501622495L1850.8581286037966 139.30533347309944 1800.5187372646762 549.2867755122793z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1350.1004784567929 271.46591204589345L1350.1004784567929 457.01770546893374 1535.6522718798333 457.0177054689337 1535.6522718798333 271.4659120458934z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M103.21376865962404 216.8491742796481L213.73232902980791 433.7540619154761 430.63721666563595 323.2355015452922 320.118656295452 106.33061390946423z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1062.0497363597906 620.8371692937994L905.897500199127 498.597837964696 878.7792434969806 669.8157722932187z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-88.8205880905239 617.1500696072343L170.1255516768399 677.1924884348571 106.07705767218022 453.82884533674866z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M511.6478917996213 202.36046112862746L364.61887175969144 65.25368184135635 232.47321284874977 354.3506015448867z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1080.9104007221254 196.77582333717257L1124.6550112282678 403.54680590891917 1264.0884274125608 282.3391864115028z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M65.10055456433216 208.97829738430082L266.9419602168999 441.6176815281451 359.02617588940785 188.61837827973966z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1009.3661017042945 864.7421614570055L955.1556315889051 1031.5848328736704 1121.99830300557 1085.7953029890598 1176.2087731209594 918.9526315723949z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1112.61628357693 958.8206043531151L1088.084662907847 678.4228970339957 807.6869555887276 702.9545177030789 832.2185762578108 983.3522250221981z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1810.7493507146526 138.18673741610104L1848.501427224948-25.335471192372694 1647.227142106179 100.43466090580573z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1152.0090917224115 690.7878023990417L1427.8373512749686 786.057221796084 1383.5406653437929 534.8382322052912z' fill='rgba(58%2c 65%2c 1%2c 1)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1044'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
-    border-radius: 10px;
+    border: 1px solid rgb(1, 31, 44);
+    background-color: #010c12;
+    border-radius: 7px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -177,7 +190,7 @@ span {
     position: relative;
     bottom: 5px;
     transition: 0.2s;
-    box-shadow: 0 0 20px 1px rgb(69, 55, 87);
+    box-shadow: 0 0 19px 1px rgb(4, 41, 62);
 }
 
 .repotitle {
@@ -199,8 +212,7 @@ span {
 .content3 a {
     font-family: 'Courier New', Courier, monospace;
     font-size: 22px;
-    color: rgb(200, 154, 255);
-    font-weight: bolder;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -352,6 +364,11 @@ span {
         font-size: 14px;
     }
 
+    .skillsboxsection {
+        display: flex;
+
+    }
+
     .skillsbox {
         min-width: auto;
         width: 70px;
@@ -393,6 +410,7 @@ span {
     .bootstrap {
         font-size: 40px;
     }
+
 
 }
 

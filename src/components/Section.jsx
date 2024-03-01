@@ -20,14 +20,13 @@ function Section() {
         <div className='kapsayici'>
 
             <div className="maindocument">
-                <p className='title'>Hİ THERE!</p>
+                <p className='title'>HI THERE!</p>
 
                 <p className='document'> I am Berkay, People call me Beko,
                     A Front-End developer with a passion for learning,
-                    I am currently improving myself  by working  with <span> React <FaReact /> and Redux <SiRedux />  </span>  and shaping life by learning new things every day.</p>
+                    I am currently improving myself  by working  with <span className='spandocument'> React <FaReact className='documneticon' /> & Redux <SiRedux className='documneticon' />  </span>  I enjoy learning and designing new technologies  other people's designs and codes.</p>
 
-                <p className='learning'>IF There is anything I can help with, Contact me.
-                </p>
+
             </div>
 
 
@@ -49,7 +48,7 @@ function Section() {
             </div>
 
 
-
+            <div class="main"></div>
 
             <div className="repos">
 

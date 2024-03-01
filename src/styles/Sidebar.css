@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: #161616;
+  /* background-color: #010213; */
+  background-color: #010101;
 }
 
 .sidebar {
@@ -74,6 +75,7 @@ h1 {
   align-items: center;
   margin-left: -22px;
   gap: 10px;
+
 }
 
 .socialbox {
@@ -122,6 +124,7 @@ h1 {
     flex-direction: column;
     display: flex;
     height: auto;
+
   }
 
   .sidebar img {
@@ -172,9 +175,14 @@ h1 {
 
 @media screen and (max-width:590px) {
   .sidebar img {
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     margin-left: 10px;
+  }
+
+  .sidebar {
+    margin-left: -5px;
+    margin-top: -30px;
   }
 
   .contentdocument {
@@ -215,5 +223,11 @@ h1 {
     margin-right: 40px;
   }
 
+}
+
+@media screen and (max-width:590px) {
+  .sidebar {
+    margin-left: -11px;
+  }
 
 }
