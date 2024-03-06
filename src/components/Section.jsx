@@ -16,6 +16,10 @@ import { FaSass } from "react-icons/fa";
 
 
 function Section() {
+
+
+
+
     return (
         <div className='kapsayici'>
 
