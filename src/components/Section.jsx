@@ -59,6 +59,32 @@ function Section() {
                 <p className='repotitle'>Projects</p>
 
                 <div className='reposcontainer'>
+                    <a href="https://instagram-clone-flame-iota.vercel.app/" className='repo'>
+                        <div className="content3">
+                            <a href="https://instagram-clone-flame-iota.vercel.app/"><IoIosLink />Instagram-Clone</a>
+
+                            <div className="colorbox">
+
+                                <div className='orange'></div>
+                                <div className='black'></div>
+                                <div className='blue'></div>
+                                <div className="branch"> HTML </div>
+                            </div>
+                        </div>
+                        <div className="content4">
+                            <div className="repodocument">
+                                <p className='repodocumentcontent'>I made a Instagram Clone in this project</p>
+                            </div>
+
+                            <div className='intelbox'>
+                                <div className="star"> <span className='span2' style={{ paddingTop: "2px" }}>2</span> <IoCodeSlash /></div>
+                                <div className="branch"><GoGitPullRequest />Code</div>
+                            </div>
+
+                        </div>
+
+                    </a>
+
 
                     <a href="https://deluxe-pavlova-25e66d.netlify.app/" className='repo'>
                         <div className="content3">
