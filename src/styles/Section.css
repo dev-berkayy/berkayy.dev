@@ -78,8 +78,7 @@
 
 .skillsbox {
     margin: auto;
-    width: 9%;
-    min-width: 90px;
+    width: 90px;
     border-radius: 50%;
     height: 90px;
     background-color: #0d0d0d;
@@ -176,7 +175,6 @@
     width: 370px;
     height: 200px;
     border: 1px solid rgb(1, 31, 44);
-
     border-radius: 7px;
     display: flex;
     flex-direction: column;
@@ -216,21 +214,26 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 9px;
+}
+
+.icon {
+    font-size: 19px;
 }
 
 .colorbox {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 7px;
 }
 
 .blue {
     width: 10px;
     height: 10px;
-    background-color: #483d8b;
+    background-color: #2200ff;
     border-radius: 50%;
+    box-shadow: 0 0 12px 2px #2200ff;
 }
 
 .black {
@@ -238,6 +241,7 @@
     height: 10px;
     background-color: yellow;
     border-radius: 50%;
+    box-shadow: 0 0 12px 2px yellow;
 }
 
 .orange {
@@ -245,6 +249,7 @@
     height: 10px;
     background-color: rgb(239, 78, 20);
     border-radius: 50%;
+    box-shadow: 0 0 12px 2px rgb(239, 78, 20);
 }
 
 .white {
@@ -252,6 +257,7 @@
     height: 10px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
+    box-shadow: 0 0 12px 2px white;
 }
 
 .content4 {
@@ -299,6 +305,19 @@
     font-size: 18px;
 }
 
+@media screen and (max-height:800px) {
+    .reposcontainer {
+        width: 100%;
+
+    }
+
+    .repo {
+
+
+        height: 200px;
+
+    }
+}
 
 @media screen and (max-width:1630px) {
 
@@ -326,12 +345,69 @@
     .repo {
         width: 92%;
     }
+
+    .skillsbox {
+
+        width: 80px;
+        height: 80px;
+    }
+
+    .react {
+        font-size: 45px;
+    }
+
+    .js {
+        font-size: 45px;
+    }
+
+    .figma {
+        font-size: 45px;
+    }
+
+    .html {
+        font-size: 45px;
+    }
+
+    .tailwind {
+        font-size: 45px;
+    }
+
+    .eng {
+        font-size: 45px;
+    }
+
+    .css {
+        font-size: 45px;
+    }
+
+    .sasscss {
+        font-size: 45px;
+    }
+
+    .bootstrap {
+        font-size: 45px;
+    }
+
 }
 
 
 @media screen and (max-width:890px) {
+
+    .maindocument {
+        margin-top: 30px;
+
+    }
+
     .repo {
         width: 47%;
+    }
+
+    .content3 a {
+        font-size: 20px;
+    }
+
+    .icon {
+        font-size: 17px;
     }
 }
 
@@ -371,46 +447,53 @@
 
     .skillsbox {
         min-width: auto;
-        width: 70px;
-        height: 70px;
+        width: 60px;
+        height: 60px;
     }
 
     .react {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .js {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .figma {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .html {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .tailwind {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .eng {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .css {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .sasscss {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .bootstrap {
-        font-size: 40px;
+        font-size: 36px;
     }
 
+    .content3 a {
+        font-size: 19px;
+    }
+
+    .icon {
+        font-size: 16px;
+    }
 
 }
 
@@ -419,5 +502,9 @@
 
     .content3 a {
         font-size: 18px;
+    }
+
+    .icon {
+        font-size: 16px;
     }
 }

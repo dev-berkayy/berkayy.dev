@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 80px; 
+  padding-top: 80px;
   height: 100vh;
 }
 
@@ -26,7 +26,7 @@ body {
   border-radius: 50%;
   width: 240px;
   height: 240px;
-  margin-left: -20px;
+
 }
 
 h1 {
@@ -127,24 +127,24 @@ h1 {
     font-size: 26px;
     color: #d2d2d2;
   }
-  
+
   .front {
     font-size: 18px;
     margin-top: 10px;
     color: #a4a4a4;
   }
-  
+
   .mail {
     margin-top: 40px;
-  
+
   }
 
-  
+
   .mailicon {
     color: #a4a4a4;
     font-size: 20px;
   }
-  
+
   .mail::before {
     content: "";
     width: 241px;
@@ -156,9 +156,9 @@ h1 {
 
 
   .social {
-  padding-bottom: 100px;
+    padding-bottom: 100px;
   }
-  
+
   .socialbox {
     width: 120px;
     height: 90px;
@@ -207,10 +207,9 @@ h1 {
     justify-content: center;
     height: 300px;
     align-items: center;
-    gap: 10px;
-    margin: auto;
+    gap: 50px;
     width: 100%;
-    padding-left: 100px;
+
 
   }
 
@@ -248,10 +247,10 @@ h1 {
   .mailsocialbox {
     display: flex;
     flex-direction: column;
-    padding-left: 35px;
+    padding-left: 55px;
     height: auto;
   }
-  
+
 
   h1 {
     margin-left: 10px;
@@ -269,7 +268,7 @@ h1 {
   .social {
     display: flex;
     flex-direction: row;
-    margin-left: -30px;
+    margin-left: -50px;
     margin-top: 10px;
   }
 

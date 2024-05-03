@@ -13,6 +13,7 @@ import { IoCodeSlash } from "react-icons/io5";
 import { FaBootstrap } from "react-icons/fa";
 import { GoGitPullRequest } from "react-icons/go";
 import { FaSass } from "react-icons/fa";
+import { BsJournalBookmark } from "react-icons/bs";
 
 
 function Section() {
@@ -62,16 +63,17 @@ function Section() {
 
 
 
+
                     <a href="https://deluxe-pavlova-25e66d.netlify.app/" className='repo'>
                         <div className="content3">
-                            <a href="https://deluxe-pavlova-25e66d.netlify.app/"><IoIosLink />You-Tube-clon</a>
+                            <a href="https://deluxe-pavlova-25e66d.netlify.app/"><BsJournalBookmark className="icon" />You-Tube-clon</a>
 
                             <div className="colorbox">
 
                                 <div className='orange'></div>
-                                <div className='black'></div>
-                                <div className='blue'></div>
-                                <div className="branch"> HTML </div>
+
+
+                                <div className="branch"> Html </div>
                             </div>
                         </div>
                         <div className="content4">
@@ -90,12 +92,12 @@ function Section() {
 
                     <a href="https://lively-pastelito-30e1e0.netlify.app/" className='repo'>
                         <div className="content3">
-                            <a href="https://lively-pastelito-30e1e0.netlify.app/"><IoIosLink /> 3D-PlayX</a>
+                            <a href="https://lively-pastelito-30e1e0.netlify.app/"><BsJournalBookmark className="icon" /> 3D-PlayX</a>
 
                             <div className="colorbox">
-                                <div className='orange'></div>
+
                                 <div className='blue'></div>
-                                <div className="branch"> CSS </div>
+                                <div className="branch"> Css </div>
                             </div>
                         </div>
                         <div className="content4">
@@ -113,13 +115,13 @@ function Section() {
                     </a>
                     <a href="https://symphonious-tartufo-af420b.netlify.app/" className='repo'>
                         <div className="content3">
-                            <a href="https://symphonious-tartufo-af420b.netlify.app/"><IoIosLink /> ToDo-APP</a>
+                            <a href="https://symphonious-tartufo-af420b.netlify.app/"><BsJournalBookmark className="icon" /> ToDo-APP</a>
 
                             <div className="colorbox">
-                                <div className='orange'></div>
+
                                 <div className='black'></div>
-                                <div className='blue'></div>
-                                <div className="branch">Javascript</div>
+
+                                <div className="branch">JavaScript</div>
                             </div>
                         </div>
                         <div className="content4">
@@ -139,12 +141,11 @@ function Section() {
                     <a href="
 https://fascinating-torrone-17b500.netlify.app/" className='repo'>
                         <div className="content3">
-                            <a href="https://fascinating-torrone-17b500.netlify.app/"><IoIosLink />Spinner-Color-Plus</a>
+                            <a href="https://fascinating-torrone-17b500.netlify.app/"><BsJournalBookmark className="icon" />Spinner-Color-Plus</a>
 
                             <div className="colorbox">
                                 <div className='orange'></div>
-                                <div className='black'></div>
-                                <div className='blue'></div>
+
                                 <div className="branch">Html</div>
                             </div>
                         </div>
@@ -163,7 +164,7 @@ https://fascinating-torrone-17b500.netlify.app/" className='repo'>
                     </a>
                     <a href="https://github.com/dev-berkayy/30-days-javaScript" className='repo'>
                         <div className="content3">
-                            <a href="https://github.com/dev-berkayy/30-days-javaScript"><IoIosLink />30Days-JavaScript</a>
+                            <a href="https://github.com/dev-berkayy/30-days-javaScript"><BsJournalBookmark className="icon" />30Days-JavaScript</a>
 
                             <div className="colorbox">
                                 <div className='black'></div>
@@ -186,7 +187,7 @@ https://fascinating-torrone-17b500.netlify.app/" className='repo'>
 
                     <a href="https://github.com/dev-berkayy/dev-berkayy" className='repo'>
                         <div className="content3">
-                            <a href="https://github.com/dev-berkayy/dev-berkayy"><IoIosLink />berkayy-config</a>
+                            <a href="https://github.com/dev-berkayy/dev-berkayy"><BsJournalBookmark className="icon" />berkayy-config</a>
 
                             <div className="colorbox">
                                 <div className='white'></div>
