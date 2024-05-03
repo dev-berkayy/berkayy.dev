@@ -432,6 +432,12 @@
 }
 
 @media screen and (max-width:590px) {
+    .maindocument {
+        margin-top: 70px;
+
+    }
+
+
     .learning {
         font-size: 23px;
     }
@@ -499,6 +505,11 @@
 
 
 @media screen and (max-width:420px) {
+
+    .maindocument {
+        margin-top: 100px;
+
+    }
 
     .content3 a {
         font-size: 18px;
