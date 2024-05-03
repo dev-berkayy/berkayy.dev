@@ -116,6 +116,31 @@ function Section() {
 
                     </a>
 
+                    <a href="https://symphonious-tartufo-af420b.netlify.app/" className='repo'>
+                        <div className="content3">
+                            <a href="https://symphonious-tartufo-af420b.netlify.app/"><BsJournalBookmark className="icon" /> ToDo-APP</a>
+
+                            <div className="colorbox">
+
+                                <div className='orange'></div>
+
+                                <div className="branch">Html</div>
+                            </div>
+                        </div>
+                        <div className="content4">
+                            <div className="repodocument">
+                                <p className='repodocumentcontent'>TO-DO application with LocalStroage</p>
+                            </div>
+
+                            <div className='intelbox'>
+                                <div className="star"> <span className='span2' style={{ paddingTop: "1px" }}>1</span> <IoCodeSlash /></div>
+                                <div className="branch"><GoGitPullRequest />Code</div>
+                            </div>
+
+                        </div>
+
+                    </a>
+
                     <a href="https://lively-pastelito-30e1e0.netlify.app/" className='repo'>
                         <div className="content3">
                             <a href="https://lively-pastelito-30e1e0.netlify.app/"><BsJournalBookmark className="icon" /> 3D-PlayX</a>
@@ -139,40 +164,17 @@ function Section() {
                         </div>
 
                     </a>
-                    <a href="https://symphonious-tartufo-af420b.netlify.app/" className='repo'>
-                        <div className="content3">
-                            <a href="https://symphonious-tartufo-af420b.netlify.app/"><BsJournalBookmark className="icon" /> ToDo-APP</a>
 
-                            <div className="colorbox">
-
-                                <div className='black'></div>
-
-                                <div className="branch">JavaScript</div>
-                            </div>
-                        </div>
-                        <div className="content4">
-                            <div className="repodocument">
-                                <p className='repodocumentcontent'>TO-DO application with LocalStroage</p>
-                            </div>
-
-                            <div className='intelbox'>
-                                <div className="star"> <span className='span2' style={{ paddingTop: "1px" }}>1</span> <IoCodeSlash /></div>
-                                <div className="branch"><GoGitPullRequest />Code</div>
-                            </div>
-
-                        </div>
-
-                    </a>
 
                     <a href="
-https://fascinating-torrone-17b500.netlify.app/" className='repo'>
+                        https://fascinating-torrone-17b500.netlify.app/" className='repo'>
                         <div className="content3">
                             <a href="https://fascinating-torrone-17b500.netlify.app/"><BsJournalBookmark className="icon" />Spinner-Color-Plus</a>
 
                             <div className="colorbox">
-                                <div className='orange'></div>
+                                <div className='blue'></div>
 
-                                <div className="branch">Html</div>
+                                <div className="branch">Css</div>
                             </div>
                         </div>
                         <div className="content4">
