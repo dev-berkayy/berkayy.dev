@@ -25,7 +25,7 @@ function Section() {
         <div className='kapsayici'>
 
             <div className="maindocument">
-                <p className='title'>HI THERE!</p>
+                <p className=' title'>HI THERE!</p>
 
                 <p className='document'> I am Berkay, People call me Beko,
                     A Front-End developer with a passion for learning,
@@ -63,6 +63,32 @@ function Section() {
 
 
 
+
+                    <a href="https://magical-sorbet-62d986.netlify.app/" className='repo'>
+                        <div className="content3">
+                            <a href="https://magical-sorbet-62d986.netlify.app/"><BsJournalBookmark className="icon" />Instagram-Clone</a>
+
+                            <div className="colorbox">
+
+                                <div className='black'></div>
+
+
+                                <div className="branch"> JavaScript </div>
+                            </div>
+                        </div>
+                        <div className="content4">
+                            <div className="repodocument">
+                                <p className='repodocumentcontent'>I made a  Instagram Clone in this project</p>
+                            </div>
+
+                            <div className='intelbox'>
+                                <div className="star"> <span className='span2' style={{ paddingTop: "2px" }}>0</span> <IoCodeSlash /></div>
+                                <div className="branch"><GoGitPullRequest />Code</div>
+                            </div>
+
+                        </div>
+
+                    </a>
 
                     <a href="https://deluxe-pavlova-25e66d.netlify.app/" className='repo'>
                         <div className="content3">
@@ -106,7 +132,7 @@ function Section() {
                             </div>
 
                             <div className='intelbox'>
-                                <div className="star"> <span className='span2' style={{ paddingTop: "2px" }}>1</span> <IoCodeSlash /></div>
+                                <div className="star"> <span className='span2' style={{ paddingTop: "2px" }}>2</span> <IoCodeSlash /></div>
                                 <div className="branch"><GoGitPullRequest />Code</div>
                             </div>
 
