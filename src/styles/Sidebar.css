@@ -176,7 +176,7 @@ h1 {
     flex-direction: column;
     display: flex;
     height: auto;
-
+    margin-left: 15px;
   }
 
   .sidebar img {
