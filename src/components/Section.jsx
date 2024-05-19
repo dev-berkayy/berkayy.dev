@@ -82,7 +82,7 @@ function Section() {
                             </div>
 
                             <div className='intelbox'>
-                                <div className="star"> <span className='span2' style={{ paddingTop: "2px" }}>0</span> <IoCodeSlash /></div>
+                                <div className="star"> <span className='span2' style={{ paddingTop: "2px" }}>1</span> <IoCodeSlash /></div>
                                 <div className="branch"><GoGitPullRequest />Code</div>
                             </div>
 
