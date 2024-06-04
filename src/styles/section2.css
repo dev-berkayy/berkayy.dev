@@ -680,3 +680,17 @@ h2:hover {
     }
 
 }
+
+@media screen and (max-width:430px) {
+
+    .content1 h1 {
+        font-size: 43px;
+    }
+
+
+    .content2 h1 {
+        font-size: 43px;
+    }
+
+
+}

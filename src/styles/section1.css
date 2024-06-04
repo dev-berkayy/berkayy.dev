@@ -356,6 +356,13 @@ nav a:hover {
     }
 }
 
+@media screen and (max-width: 440px) {
+    .images {
+        width: 300px;
+        left: 0;
+    }
+}
+
 @media screen and (max-height: 800px) {
     .section1 {
         height: 165vh;
