@@ -1,248 +1,59 @@
-import React from 'react'
-import { FaReact } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { FaFigma } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa6";
-import { RiEnglishInput } from "react-icons/ri";
-import { SiRedux } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { IoIosLink } from "react-icons/io";
-import { IoLogoCss3 } from "react-icons/io5";
-import { FaCodeFork } from "react-icons/fa6";
-import { IoCodeSlash } from "react-icons/io5";
-import { FaBootstrap } from "react-icons/fa";
-import { GoGitPullRequest } from "react-icons/go";
-import { FaSass } from "react-icons/fa";
-import { BsJournalBookmark } from "react-icons/bs";
+import React, { useState } from 'react';
+import { Link } from 'react-scroll';
+import "../styles/section1.css";
+import svg1 from "../assets/svg1.svg";
+import svg2 from "../assets/svg2.svg";
+import { FiGithub } from "react-icons/fi";
+import { SlSocialLinkedin } from "react-icons/sl";
+import { MdOutlineFileDownload } from "react-icons/md";
+import { FaInstagram } from "react-icons/fa6";
+import { MdOutlineBusinessCenter } from "react-icons/md";
+import { RiGitRepositoryLine } from "react-icons/ri";
+import { BiHome } from "react-icons/bi";
+import { IoShareSocialOutline } from "react-icons/io5";
 
+function Section1() {
+    const [activeLink, setActiveLink] = useState('');
 
-function Section() {
-
-
-
+    const handleSetActive = (to) => {
+        setActiveLink(to);
+    };
 
     return (
-        <div className='kapsayici'>
+        <div className='section1'>
+            <nav className='nav'>
+                <Link to="section1" smooth={true} duration={400} onSetActive={() => handleSetActive('section1')}>
+                    <p className={`nav-buttons ${activeLink === 'section1' ? 'active' : ''}`}> <BiHome className='icons' /> </p>
+                </Link>
+                <Link to="content1" smooth={true} duration={400} onSetActive={() => handleSetActive('content1')}>
+                    <p className={`nav-buttons ${activeLink === 'content1' ? 'active' : ''}`}> <MdOutlineBusinessCenter className='icons' />  </p>
+                </Link>
+                <Link to="repos" smooth={true} duration={400} onSetActive={() => handleSetActive('repos')}>
+                    <p className={`nav-buttons ${activeLink === 'repos' ? 'active' : ''}`}> <RiGitRepositoryLine className='icons' />  </p>
+                </Link>
+                <Link to="footer" smooth={true} duration={600} onSetActive={() => handleSetActive('footer')}>
+                    <p className={`nav-buttons ${activeLink === 'footer' ? 'active' : ''}`}> <IoShareSocialOutline className='icons' />  </p>
+                </Link>
+            </nav>
 
-            <div className="maindocument">
-                <p className=' title'>HI THERE!</p>
+            <img className='images' src={svg1} alt="" />
+            <img className='images2' src={svg2} alt="" />
 
-                <p className='document'> I am Berkay, People call me Beko,
-                    A Front-End developer with a passion for learning,
-                    I am currently improving myself  by working  with <span className='spandocument'> React <FaReact className='documneticon' /> & Redux <SiRedux className='documneticon' />  </span>  I enjoy learning and designing new technologies  other people's designs and codes.</p>
-
-
-            </div>
-
-
-
-            <div className="skills">
-                <p className='skiltitle'>Skills</p>
-                <div className='skillsboxsection'>
-                    <div className="skillsbox"><FaReact className='react' /></div>
-                    <div className="skillsbox"><IoLogoJavascript className='js' /></div>
-                    <div className="skillsbox"><IoLogoCss3 className='css' /></div>
-                    <div className="skillsbox"><FaHtml5 className='html' /></div>
-                    <div className="skillsbox"><FaSass className='sasscss' /></div>
-                    <div className="skillsbox"><SiTailwindcss className='tailwind' /></div>
-                    <div className="skillsbox">  <FaBootstrap className='bootstrap' /></div>
-                    <div className="skillsbox"><FaFigma className='figma' /></div>
-
-
+            <div className='textboxs'>
+                <h1 className='center-texts'>Hello, I'm Berkay</h1>
+                <p>A Front-End Developer</p>
+                <div className='social'>
+                    <a href="https://www.linkedin.com/in/berkay-y%C4%B1ld%C4%B1r%C4%B1m-75b9a2239/" className='socialbox'><SlSocialLinkedin /></a>
+                    <a href="https://github.com/dev-berkayy" className='socialbox'><FiGithub /></a>
+                    <a href="https://www.instagram.com/berkay4yldrm/" className='socialbox'><FaInstagram /></a>
                 </div>
             </div>
 
-
-            <div class="main"></div>
-
-            <div className="repos">
-
-                <p className='repotitle'>Projects</p>
-
-                <div className='reposcontainer'>
-
-
-
-
-                    <a href="https://magical-sorbet-62d986.netlify.app/" className='repo'>
-                        <div className="content3">
-                            <a href="https://magical-sorbet-62d986.netlify.app/"><BsJournalBookmark className="icon" />Instagram-Clone</a>
-
-                            <div className="colorbox">
-
-                                <div className='black'></div>
-
-
-                                <div className="branch"> JavaScript </div>
-                            </div>
-                        </div>
-                        <div className="content4">
-                            <div className="repodocument">
-                                <p className='repodocumentcontent'>I made a  Instagram Clone in this project</p>
-                            </div>
-
-                            <div className='intelbox'>
-                                <div className="star"> <span className='span2' style={{ paddingTop: "2px" }}>1</span> <IoCodeSlash /></div>
-                                <div className="branch"><GoGitPullRequest />Code</div>
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                    <a href="https://deluxe-pavlova-25e66d.netlify.app/" className='repo'>
-                        <div className="content3">
-                            <a href="https://deluxe-pavlova-25e66d.netlify.app/"><BsJournalBookmark className="icon" />You-Tube-clon</a>
-
-                            <div className="colorbox">
-
-                                <div className='orange'></div>
-
-
-                                <div className="branch"> Html </div>
-                            </div>
-                        </div>
-                        <div className="content4">
-                            <div className="repodocument">
-                                <p className='repodocumentcontent'>I made a You-Tube clone in this project</p>
-                            </div>
-
-                            <div className='intelbox'>
-                                <div className="star"> <span className='span2' style={{ paddingTop: "2px" }}>2</span> <IoCodeSlash /></div>
-                                <div className="branch"><GoGitPullRequest />Code</div>
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                    <a href="https://symphonious-tartufo-af420b.netlify.app/" className='repo'>
-                        <div className="content3">
-                            <a href="https://symphonious-tartufo-af420b.netlify.app/"><BsJournalBookmark className="icon" /> ToDo-APP</a>
-
-                            <div className="colorbox">
-
-                                <div className='orange'></div>
-
-                                <div className="branch">Html</div>
-                            </div>
-                        </div>
-                        <div className="content4">
-                            <div className="repodocument">
-                                <p className='repodocumentcontent'>TO-DO application with LocalStroage</p>
-                            </div>
-
-                            <div className='intelbox'>
-                                <div className="star"> <span className='span2' style={{ paddingTop: "1px" }}>1</span> <IoCodeSlash /></div>
-                                <div className="branch"><GoGitPullRequest />Code</div>
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                    <a href="https://lively-pastelito-30e1e0.netlify.app/" className='repo'>
-                        <div className="content3">
-                            <a href="https://lively-pastelito-30e1e0.netlify.app/"><BsJournalBookmark className="icon" /> 3D-PlayX</a>
-
-                            <div className="colorbox">
-
-                                <div className='blue'></div>
-                                <div className="branch"> Css </div>
-                            </div>
-                        </div>
-                        <div className="content4">
-                            <div className="repodocument">
-                                <p className='repodocumentcontent'>I made A UI/3D PlayX design </p>
-                            </div>
-
-                            <div className='intelbox'>
-                                <div className="star"> <span className='span2' style={{ paddingTop: "2px" }}>2</span> <IoCodeSlash /></div>
-                                <div className="branch"><GoGitPullRequest />Code</div>
-                            </div>
-
-                        </div>
-
-                    </a>
-
-
-                    <a href="
-                        https://fascinating-torrone-17b500.netlify.app/" className='repo'>
-                        <div className="content3">
-                            <a href="https://fascinating-torrone-17b500.netlify.app/"><BsJournalBookmark className="icon" />Spinner-Color-Plus</a>
-
-                            <div className="colorbox">
-                                <div className='blue'></div>
-
-                                <div className="branch">Css</div>
-                            </div>
-                        </div>
-                        <div className="content4">
-                            <div className="repodocument">
-                                <p className='repodocumentcontent'> I made a simple counter</p>
-                            </div>
-
-                            <div className='intelbox'>
-                                <div className="star"> <span className='span2' style={{ paddingTop: "2px" }}>1</span> <IoCodeSlash /></div>
-                                <div className="branch"><GoGitPullRequest />Code</div>
-                            </div>
-
-                        </div>
-
-                    </a>
-                    <a href="https://github.com/dev-berkayy/30-days-javaScript" className='repo'>
-                        <div className="content3">
-                            <a href="https://github.com/dev-berkayy/30-days-javaScript"><BsJournalBookmark className="icon" />30Days-JavaScript</a>
-
-                            <div className="colorbox">
-                                <div className='black'></div>
-                                <div className="branch">JavaScript</div>
-                            </div>
-                        </div>
-                        <div className="content4">
-                            <div className="repodocument">
-                                <p className='repodocumentcontent'>I made 30 javaScirpt projects</p>
-                            </div>
-
-                            <div className='intelbox'>
-                                <div className="star"> <span className='span2' style={{ paddingTop: "2px" }}>1</span> <IoCodeSlash /></div>
-                                <div className="branch"><GoGitPullRequest />Code</div>
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                    <a href="https://github.com/dev-berkayy/dev-berkayy" className='repo'>
-                        <div className="content3">
-                            <a href="https://github.com/dev-berkayy/dev-berkayy"><BsJournalBookmark className="icon" />berkayy-config</a>
-
-                            <div className="colorbox">
-                                <div className='white'></div>
-                                <div className="branch">No language</div>
-                            </div>
-                        </div>
-                        <div className="content4">
-                            <div className="repodocument">
-                                <p className='repodocumentcontent'></p>
-                            </div>
-
-                            <div className='intelbox'>
-                                <div className="star"></div>
-                                <div className="branch"><GoGitPullRequest /> Code</div>
-                            </div>
-
-                        </div>
-
-                    </a>
-
-                </div>
-
+            <div className='socialboxs'>
+                <a href="" className='cv'><MdOutlineFileDownload className='download' />Cv Download</a>
             </div>
-
-
-        </div >
-    )
+        </div>
+    );
 }
 
-export default Section
+export default Section1;
