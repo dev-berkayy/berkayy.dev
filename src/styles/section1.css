@@ -1,0 +1,379 @@
+@font-face {
+    font-family: 'Alba Super';
+    src: url('/fonts/alba.TFF');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    z-index: 99;
+}
+
+nav a {
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 60px;
+    height: 100%;
+    text-decoration-line: overline;
+    transition: 0.2s;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+nav a:hover {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 251, 251);
+}
+
+
+.nav a.active {
+    background-color: white;
+    color: black;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.textboxs {
+    margin-top: 240px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.textboxs p {
+    font-family: sans-serif;
+    color: #b3adad;
+    font-size: 45px;
+}
+
+.center-texts {
+    font-size: 90px;
+    font-family: 'Alba Super', sans-serif;
+    color: rgb(240, 235, 235);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.social :nth-child(2) {
+    background-color: white;
+    color: #000000;
+}
+
+.social :nth-child(2):hover {
+    background-color: white;
+    color: #000000;
+}
+
+.images {
+    width: 520px;
+    position: absolute;
+    left: 0;
+    top: 450px;
+}
+
+.images2 {
+    width: 450px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.socialboxs {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 40px;
+    bottom: 30px;
+    width: 100%;
+    height: 50px;
+    gap: 30px;
+}
+
+.socialbox {
+    width: 60px;
+    height: 60px;
+    font-size: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0px 0px #ffffff;
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.2s;
+}
+
+.socialbox {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: #ffffff solid 1px;
+}
+
+.socialbox:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    border: 1px solid #ffffff;
+}
+
+.cv {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #ffffff;
+    box-shadow: 4px 4px 0px 0px #ffffff;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.cv:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.download {
+    font-size: 29px;
+}
+
+@media screen and (max-width:1600px) {
+    .images {
+        width: 420px;
+        position: absolute;
+        left: 0;
+    }
+
+    .images2 {
+        width: 400px;
+        position: absolute;
+    }
+
+    .center-texts {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .images2 {
+        width: 360px;
+        position: absolute;
+        top: 400px;
+    }
+
+    .socialboxs {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 40px;
+    }
+
+    .textboxs {
+        margin-top: 140px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .images {
+        width: 350px;
+        left: 0;
+    }
+
+    .images2 {
+        top: 800px;
+        width: 320px;
+    }
+
+    .section1 {
+        height: 115vh;
+    }
+
+    .socialboxs {
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .images {
+        width: 350px;
+        left: 0;
+        top: 400px;
+    }
+
+    .images2 {
+        top: 800px;
+        width: 300px;
+    }
+
+    .socialboxs {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .center-texts {
+        font-size: 60px;
+    }
+
+    .textboxs p {
+        font-family: sans-serif;
+        color: #b3adad;
+        font-size: 27px;
+    }
+
+    .socialboxs a {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 170px;
+        height: 45px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .socialbox {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .socialbox:hover {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .section1 {
+        height: 123vh;
+    }
+
+    .images {
+        width: 360px;
+        left: 0;
+    }
+
+    .images2 {
+        top: 930px;
+        width: 290px;
+    }
+
+    .socialboxs {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .center-texts {
+        font-size: 50px;
+    }
+
+    .textboxs p {
+        font-family: sans-serif;
+        color: #b3adad;
+        font-size: 23px;
+    }
+
+    .socialboxs {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-bottom: -20px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .center-texts {
+        font-size: 40px;
+    }
+
+    .section1 {
+        height: 123vh;
+    }
+
+    .images {
+        width: 360px;
+        left: 0;
+    }
+
+    .images2 {
+        top: 930px;
+        width: 290px;
+    }
+
+    .nav {
+        padding: 0 20px;
+    }
+
+    nav a {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    .section1 {
+        height: 165vh;
+    }
+
+    .images {
+        width: 350px;
+    }
+
+    .socialboxs a {
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 170px;
+        height: 45px;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: -340px;
+    }
+}
