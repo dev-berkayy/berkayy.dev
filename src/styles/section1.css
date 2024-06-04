@@ -361,6 +361,24 @@ nav a:hover {
         width: 300px;
         left: 0;
     }
+
+    .cv {
+        font-size: 22px;
+    }
+
+
+    .socialboxs a {
+        padding-right: 18px;
+        text-align: center;
+        font-size: 18px;
+
+    }
+
+
+
+    .download {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-height: 800px) {

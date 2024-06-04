@@ -17,7 +17,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { FaHeart } from "react-icons/fa6";
-
+import { FaSteamSymbol } from "react-icons/fa";
 
 function Section2() {
     const [repos, setRepos] = useState([]);
@@ -96,7 +96,7 @@ function Section2() {
                         <a href="https://github.com/dev-berkayy"><ImGithub /></a>
                         <a href="https://www.linkedin.com/in/berkay-y%C4%B1ld%C4%B1r%C4%B1m-75b9a2239/"><FaLinkedin /></a>
                         <a href="https://open.spotify.com/user/l2prsqhmnnmhckrk1ef35apov?si=f76bfdfcfc2a43f5"><FaSpotify /></a>
-                        <a href="https://web.telegram.org/k/"><FaTelegramPlane /></a>
+                        <a href="https://steamcommunity.com/id/7ryzen7/"><FaSteamSymbol /></a>
                     </div>
 
                     <p> <FaRegCopyright /> Made By <FaHeart /> Dev-Berkayy</p>
