@@ -1,17 +1,14 @@
 import React from 'react'
-import Sidebar from './components/Sidebar'
-import Section from './components/Section'
+import Section1 from './components/section1'
+import Section2 from './components/section2'
 
+import "./Global.css"
 function App() {
-
-
-
-
   return (
-    <div className='container'>
+    <div className='app'>
 
-      <Sidebar></Sidebar>
-      <Section></Section>
+      <Section1 />
+      <Section2 />
 
     </div>
   )
