@@ -12,7 +12,7 @@ import { MdOutlineBusinessCenter } from "react-icons/md";
 import { RiGitRepositoryLine } from "react-icons/ri";
 import { BiHome } from "react-icons/bi";
 import { IoShareSocialOutline } from "react-icons/io5";
-
+ 
 function Section1() {
     const [activeLink, setActiveLink] = useState('');
 
