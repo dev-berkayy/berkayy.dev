@@ -33,7 +33,7 @@ function Section2() {
                     repo.name.includes('YouTube-Clone') ||
                     repo.name.includes('Todo-App-Local-Stroage') ||
                     repo.name.includes('Instagram-Clone') ||
-                    repo.name.includes('UI-Play-X') ||
+                    repo.name.includes('Play-X-3D-Design') ||
                     repo.name.includes('Spinner-Color-Plus') ||
                     repo.name.includes('React-Back-End-Request')
                 );
