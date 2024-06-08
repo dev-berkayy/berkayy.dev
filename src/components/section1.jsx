@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import "../styles/section1.css";
 import svg1 from "../assets/svg1.svg";
 import svg2 from "../assets/svg2.svg";
+import CV from "../assets/Berkay_CV.pdf"
 import { FiGithub } from "react-icons/fi";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { MdOutlineFileDownload } from "react-icons/md";
@@ -50,7 +51,7 @@ function Section1() {
             </div>
 
             <div className='socialboxs'>
-                <a href="" className='cv'><MdOutlineFileDownload className='download' />Cv Download</a>
+                <a href={CV} download className='cv'><MdOutlineFileDownload className='download' />Cv Download</a>
             </div>
         </div>
     );
