@@ -570,13 +570,17 @@ h2:hover {
 
 
     .skillbox {
-        width: 150px;
-        height: 45px;
-        font-size: 14px;
+        width: 140px;
+        height: 40px;
+        font-size: 17px;
+    }
+
+    .skillbox p {
+        font-size: 17px;
     }
 
     .skillicon {
-        font-size: 23px;
+        font-size: 22px;
     }
 
     /*  content 2 responsive */
@@ -687,10 +691,23 @@ h2:hover {
         font-size: 43px;
     }
 
-
     .content2 h1 {
         font-size: 43px;
     }
 
+    .skillbox {
+        width: 130px;
+        height: 40px;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .skillbox p {
+        font-size: 16px;
+    }
+
+    .skillicon {
+        font-size: 20px;
+    }
 
 }
