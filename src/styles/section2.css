@@ -554,6 +554,7 @@ h2:hover {
         font-size: 22px;
     }
 
+
 }
 
 @media screen and (max-width: 500px) {
@@ -695,11 +696,14 @@ h2:hover {
         font-size: 43px;
     }
 
+    .skillsboxs {
+        padding-top: 20px;
+    }
+
     .skillbox {
         width: 130px;
         height: 40px;
         font-size: 17px;
-        margin-top: 10px;
     }
 
     .skillbox p {
