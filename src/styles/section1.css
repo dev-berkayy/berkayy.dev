@@ -64,7 +64,7 @@ nav a:hover {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .textboxs {
@@ -108,7 +108,7 @@ nav a:hover {
     width: 520px;
     position: absolute;
     left: 0;
-    top: 450px;
+    top: 420px;
 }
 
 .images2 {
@@ -338,13 +338,13 @@ nav a:hover {
     }
 
     .images {
-        width: 360px;
+        width: 350px;
         left: 0;
     }
 
     .images2 {
         top: 930px;
-        width: 290px;
+        width: 260px;
     }
 
     .nav {
@@ -358,32 +358,49 @@ nav a:hover {
 
 @media screen and (max-width: 440px) {
     .images {
-        width: 300px;
+        width: 280px;
         left: 0;
     }
 
     .cv {
-        font-size: 22px;
+        font-size: 15px;
+
     }
 
+    .socialboxs .cv {
+        width: 150px;
+        height: 38px;
+        font-size: 14px;
+        margin-top: -165px;
+    }
 
     .socialboxs a {
         padding-right: 18px;
         text-align: center;
-        font-size: 18px;
+        font-size: 14px;
 
     }
 
-
-
     .download {
-        font-size: 25px;
+        font-size: 22px;
     }
 }
 
+@media screen and (max-width: 390px) {
+    .socialboxs .cv {
+        margin-top: 5px;
+    }
+}
+
+
 @media screen and (max-height: 800px) {
     .section1 {
-        height: 165vh;
+        height: 155vh;
+    }
+
+    .socialboxs .cv {
+        position: absolute;
+
     }
 
     .images {

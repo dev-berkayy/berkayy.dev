@@ -13,11 +13,14 @@ import { FaGitlab } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { ImGithub } from "react-icons/im";
 import { FaSpotify } from "react-icons/fa";
-import { FaTelegramPlane } from "react-icons/fa";
+import { SiJavascript } from "react-icons/si";
 import { FaRegCopyright } from "react-icons/fa";
 import { GrInstagram } from "react-icons/gr";
 import { FaHeart } from "react-icons/fa6";
 import { FaSteamSymbol } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
+import { SiMaterialformkdocs } from "react-icons/si";
+
 
 function Section2() {
     const [repos, setRepos] = useState([]);
@@ -54,13 +57,16 @@ function Section2() {
                 <p></p>
 
                 <div className='skillsboxs'>
+
+                    <div className='skillbox'><p className='skillicon'> <SiTypescript className='skillicon' /> TypeScript</p></div>
+                    <div className='skillbox'><p className='skillicon'> <SiJavascript className='skillicon' /> JavaScript</p></div>
                     <div className='skillbox'><p className='skillicon'> <FaReact className='skillicon' /> REACT</p></div>
-                    <div className='skillbox'><p className='skillicon'> <TbBrandJavascript className='skillicon' /> JavaScript</p></div>
                     <div className='skillbox'><p className='skillicon'> <FaSass className='skillicon' /> SASS</p></div>
                     <div className='skillbox'><p className='skillicon'> <FaCss3Alt className='skillicon' /> CSS</p></div>
                     <div className='skillbox'><p className='skillicon'> <FaHtml5 className='skillicon' /> HTML</p></div>
                     <div className='skillbox'><p className='skillicon'> <RiTailwindCssFill className='skillicon' /> TailWind</p></div>
                     <div className='skillbox'><p className='skillicon'> <FaBootstrap className='skillicon' /> BootStrap</p></div>
+                    <div className='skillbox'><p className='skillicon'> <SiMaterialformkdocs className='skillicon' /> Material UI</p></div>
                     <div className='skillbox'><p className='skillicon'> <FaGitlab className='skillicon' /> GIT</p></div>
                 </div>
             </div>

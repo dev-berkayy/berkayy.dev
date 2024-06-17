@@ -17,7 +17,7 @@
     display: flex;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 3px;
 
 }
@@ -32,3 +32,5 @@
     border-radius: 10px;
     background: #ffffff;
 }
+
+*/

@@ -28,6 +28,7 @@ body {
     background-color: white;
     gap: 10px;
     padding-bottom: 130px;
+    margin-top: 40px;
 }
 
 .content1::before {
@@ -128,7 +129,7 @@ body {
 
 
 .repos {
-    width: 1370px;
+    width: 1480px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
@@ -137,8 +138,8 @@ body {
 }
 
 .repo {
-    width: 420px;
-    height: 250px;
+    width: 470px;
+    height: 230px;
     box-shadow: 6px 6px 0px 0px rgb(180, 178, 178);
     border: 1px solid rgb(180, 178, 178);
     border-radius: 5px;
@@ -327,7 +328,7 @@ h2:hover {
     }
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1510px) {
 
     .content1::before {
         top: 220px;
@@ -568,6 +569,10 @@ h2:hover {
         top: 160px;
     }
 
+    .skillbox p {
+        font-size: 18px;
+
+    }
 
     .skillbox {
         width: 150px;
@@ -687,10 +692,13 @@ h2:hover {
         font-size: 43px;
     }
 
+    .content1::before {
+        top: 135px;
+
+    }
 
     .content2 h1 {
         font-size: 43px;
     }
-
 
 }
